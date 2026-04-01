@@ -7,7 +7,7 @@ title: Technical
 
 <p>Search engines cannot rank what they cannot efficiently crawl and understand. My approach to technical SEO is rooted in my IT Specialist background, moving beyond surface-level checklists to address the underlying digital infrastructure. I treat a website as a complex ecosystem where site speed, crawl budget, and information architecture must be optimized to ensure seamless communication between the server and the search engine.</p>
 
-<div style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 40px; margin: 40px 0;">
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 40px; margin: 40px 0;">
 
   <div style="flex: 2; min-width: 320px;">
     <h2 style="margin-top: 0;">Technical Capability Matrix</h2>
