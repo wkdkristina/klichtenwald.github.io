@@ -19,13 +19,10 @@ title: Technical
         <p>HTML/CSS | WordPress CMS | Site Architecture | Performance Optimization</p>
         <h3>Emerging Tech</h3>
         <p>Python for SEO | AI Visibility Trends | LLM Search Interaction | Data Automation</p>
-    </div>
     <div style="flex: 1; min-width: 250px; text-align: center;">
     <img src="/assets/images/matrix.webp" 
          alt="Visual of a matrix with a silhouette of a person" 
          style="width: 40%; border-radius: 12px; border: 1px solid #E2E8F0; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
-    </div>
-
 </div>
 
 <h2>Technical Pillar Deep-Dives</h2>
