@@ -49,7 +49,7 @@ Select a specialization below to see my methodology, tools, and results:
 ### All Case Studies
 [**View the full library of 9 Case Studies indexed by impact**](case-studies.md)
 
-[Contact & Wrap Up](contact.md)
+[Contact](contact.md)
 
 ---
 
