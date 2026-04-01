@@ -2,77 +2,31 @@
 layout: default
 title: Technical
 ---
-.tech-matrix-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
-    margin: 30px 0;
-  }
 
-  .matrix-item {
-    background: #FFFFFF;
-    border: 1px solid #E28F0;
-    border-radius: 8px;
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
-    border-top: 4px solid #2563EB; /* The "SEO Blue" accent */
-  }
-
-  .matrix-item h4 {
-    margin: 0 0 10px 0;
-    color: #0F172A;
-    text-transform: uppercase;
-    font-size: 0.9rem;
-    letter-spacing: 1px;
-  }
-
-  .matrix-icon {
-    font-size: 2rem;
-    margin-bottom: 10px;
-    display: block;
-  }
 <h1>Technical SEO & Site Health</h1>
 
 <p>Search engines cannot rank what they cannot efficiently crawl and understand. My approach to technical SEO is rooted in my IT Specialist background, moving beyond surface-level checklists to address the underlying digital infrastructure. I treat a website as a complex ecosystem where site speed, crawl budget, and information architecture must be optimized to ensure seamless communication between the server and the search engine.</p>
 
-<h2>Technical Capability Matrix</h2>
-
-<p>I leverage a stack of enterprise-grade tools and foundational web technologies to ensure indexability and technical health.</p>
-
-<div class="tech-matrix-container">
-  
-  <div class="matrix-item">
-    <span class="matrix-icon">🔍</span>
-    <h4>Forensic Auditing</h4>
-    <p style="font-size: 0.85rem; color: #64748B;">Crawl Budget, Log Files, & Technical Debt</p>
-  </div>
-
-  <div class="matrix-item">
-    <span class="matrix-icon">🏗️</span>
-    <h4>Infrastructure</h4>
-    <p style="font-size: 0.85rem; color: #64748B;">Site Architecture, Migrations, & Render SEO</p>
-  </div>
-
-  <div class="matrix-item">
-    <span class="matrix-icon">🤖</span>
-    <h4>AI Readiness</h4>
-    <p style="font-size: 0.85rem; color: #64748B;">Schema, Entity Mapping, & GEO Strategy</p>
-  </div>
+<div style="display: flex; flex-wrap: wrap; gap: 40px; align-items: flex-start; margin-top: 30px;">
+    <div style="flex: 2; min-width: 300px;">
+        <h2>Technical Capability Matrix</h2>
+        <p>I leverage a stack of enterprise-grade tools and foundational web technologies to ensure indexability and technical health.
+        <h3>Core SEO Skills</h3>
+        <p>Technical Site Audits | 301 Redirect Mapping | Indexation Management | XML Sitemaps | Robots.txt</p>
+        <h3>SEO Suites</h3>
+        <p>SEMrush | Ahrefs | Screaming Frog | Google Search Console</p>
+        <h3>Web Foundations</h3>
+        <p>HTML/CSS | WordPress CMS | Site Architecture | Performance Optimization</p>
+        <h3>Emerging Tech</h3>
+        <p>Python for SEO | AI Visibility Trends | LLM Search Interaction | Data Automation</p>
+    </div>
+    <div style="flex: 1; min-width: 250px; text-align: center;">
+    <img src="/assets/images/matrix.webp" 
+         alt="Visual of a matrix with a silhouette of a person" 
+         style="width: 100%; border-radius: 12px; border: 1px solid #E2E8F0; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
+    </div>
 
 </div>
-
-<h3>Core SEO Skills</h3>
-<p>Technical Site Audits | 301 Redirect Mapping | Indexation Management | XML Sitemaps | Robots.txt</p>
-
-<h3>SEO Suites</h3>
-<p>SEMrush | Ahrefs | Screaming Frog | Google Search Console</p>
-
-<h3>Web Foundations</h3>
-<p>HTML/CSS | WordPress CMS | Site Architecture | Performance Optimization</p>
-
-<h3>Emerging Tech</h3>
-<p>Python for SEO | AI Visibility Trends | LLM Search Interaction | Data Automation</p>
 
 <h2>Technical Pillar Deep-Dives</h2>
 <p><b>Infrastructure Auditing & Crawl Efficiency</b></p>
