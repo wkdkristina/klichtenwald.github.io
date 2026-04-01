@@ -7,22 +7,27 @@ title: Technical
 
 <p>Search engines cannot rank what they cannot efficiently crawl and understand. My approach to technical SEO is rooted in my IT Specialist background, moving beyond surface-level checklists to address the underlying digital infrastructure. I treat a website as a complex ecosystem where site speed, crawl budget, and information architecture must be optimized to ensure seamless communication between the server and the search engine.</p>
 
-<div style="display: flex; flex-wrap: wrap; gap: 40px; align-items: flex-start; margin-top: 30px;">
-    <div style="flex: 2; min-width: 300px;">
-        <h2>Technical Capability Matrix</h2>
-        <p>I leverage a stack of enterprise-grade tools and foundational web technologies to ensure indexability and technical health.
-        <h3>Core SEO Skills</h3>
-        <p>Technical Site Audits | 301 Redirect Mapping | Indexation Management | XML Sitemaps | Robots.txt</p>
-        <h3>SEO Suites</h3>
-        <p>SEMrush | Ahrefs | Screaming Frog | Google Search Console</p>
-        <h3>Web Foundations</h3>
-        <p>HTML/CSS | WordPress CMS | Site Architecture | Performance Optimization</p>
-        <h3>Emerging Tech</h3>
-        <p>Python for SEO | AI Visibility Trends | LLM Search Interaction | Data Automation</p>
-    <div style="flex: 1; min-width: 250px; text-align: center;">
+<div style="display: flex; flex-wrap: wrap; align-items: flex-start; gap: 40px; margin: 40px 0;">
+
+  <div style="flex: 2; min-width: 320px;">
+    <h2 style="margin-top: 0;">Technical Capability Matrix</h2>
+    <p>I leverage a stack of enterprise-grade tools and foundational web technologies to ensure indexability and technical health.</p>
+    <h3 style="margin-bottom: 5px;">Core SEO Skills</h3>
+    <p style="margin-top: 0; color: #475569;">Technical Site Audits | 301 Redirect Mapping | Indexation Management | XML Sitemaps | Robots.txt</p>
+    <h3 style="margin-bottom: 5px;">SEO Suites</h3>
+    <p style="margin-top: 0; color: #475569;">SEMrush | Ahrefs | Screaming Frog | Google Search Console</p>
+    <h3 style="margin-bottom: 5px;">Web Foundations</h3>
+    <p style="margin-top: 0; color: #475569;">HTML/CSS | WordPress CMS | Site Architecture | Performance Optimization</p>
+    <h3 style="margin-bottom: 5px;">Emerging Tech</h3>
+    <p style="margin-top: 0; color: #475569;">Python for SEO | AI Visibility Trends | LLM Search Interaction | Data Automation</p>
+  </div>
+
+  <div style="flex: 1; min-width: 280px; text-align: center;">
     <img src="/assets/images/matrix.webp" 
-         alt="Visual of a matrix with a silhouette of a person" 
-         style="width: 40%; border-radius: 12px; border: 1px solid #E2E8F0; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
+         alt="Technical Infrastructure Visualization" 
+         style="width: 100%; border-radius: 12px; border: 1px solid #E2E8F0; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+  </div>
+
 </div>
 
 <h2>Technical Pillar Deep-Dives</h2>
