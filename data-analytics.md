@@ -9,20 +9,17 @@ title: Data
 
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 40px; margin: 40px 0;">
 
-  <div style="flex: 1; min-width: 280px; text-align: center;">
-    <div style="position: relative; overflow: hidden; background-color: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
-      <img src="/assets/images/2785106.jpg" 
-           alt="Conceptual Analytics Dashboard Visualization" 
-           style="width: 100%; display: block; border: none; padding: 10px;">
-      <div style="position: absolute; bottom: 0; left: 0; right: 0; height: 35px; background: linear-gradient(transparent, #FFFFFF 90%);"></div>
+  <div style="flex: 1; min-width: 300px; text-align: center;">
+    <div style="background-color: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 12px; padding: 25px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+      <img src="/assets/images/infographic.webp" 
+           alt="Forensic Data Visualization" 
+           style="width: 100%; height: auto; display: block; margin: 0 auto;">
     </div>
-    <p style="font-size: 0.75rem; color: #94a3b8; margin-top: 10px; font-style: italic;">conceptual visualization: multi-channel attribution complexity</p>
+    <p style="font-size: 0.75rem; color: #64748B; margin-top: 12px; font-style: italic;">
+      Conceptual Visualization: Multi-Channel Attribution & Traffic Anomalies
+    </p>
   </div>
 
-  <div style="flex: 2; min-width: 320px;">
-    </div>
-
-</div>
   <div style="flex: 2; min-width: 320px;">
     <h2 style="margin-top: 0;">Data Analytics Capability Matrix</h2>
     <p>I transform raw search data into actionable business intelligence using modern analytics stacks and statistical modeling.</p>
@@ -31,7 +28,7 @@ title: Data
     <h3 style="margin-bottom: 5px;">The Analytics Stack</h3>
     <p style="margin-top: 0; color: #475569;">Google Analytics 4 (GA4) | BigQuery | SQL | Google Tag Manager (GTM) | Google Search Console | KPI Tracking</p>
     <h3 style="margin-bottom: 5px;">Visualization & Reporting</h3>
-    <p style="margin-top: 0; color: #475569;">Looker Studio | Tableau | Microsoft Excel (Advanced) | Pivot Table Architecting | Canva (Storytelling, Visuals) | Data Cleaning</p>
+    <p style="margin-top: 0; color: #475569;">Looker Studio | Tableau | Microsoft Excel (Advanced) | Pivot Table Architecting | Canva (Storytelling) | Data Cleaning</p>
     <h3 style="margin-bottom: 5px;">Data Science Tools</h3>
     <p style="margin-top: 0; color: #475569;">Python (Pandas & NumPy) | Jupyter Notebooks | API Data Extraction | Statistical Significance Testing</p>
   </div>
