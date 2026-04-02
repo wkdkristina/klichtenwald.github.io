@@ -85,6 +85,50 @@
   </div>
 </nav>
 
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #FFFFFF;
+  min-width: 260px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.1);
+  z-index: 100;
+  border: 1px solid #E2E8F0;
+  border-radius: 8px;
+  text-align: left;
+  margin-top: 5px;
+}
+
+.dropdown-content a {
+  color: #64748B;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 0.8rem;
+  border-bottom: 1px solid #F1F5F9;
+  margin: 0; 
+}
+
+.dropdown-content a:last-child {
+  border-bottom: none;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #F8FAFC;
+  color: #2563EB !2important; 
+}
+
+.dropdown:hover .dropbtn {
+  color: #2563EB;
+}
 
   </style>
 </head>
