@@ -8,6 +8,7 @@ title: Data
 <p>Data is only as valuable as the decisions it informs. My approach to analytics centers on moving past "vanity metrics" (likes and raw sessions) to focus on revenue attribution and user intent. By building custom measurement frameworks, I translate complex dataset behaviors into clear, actionable roadmaps for stakeholders.</p>
 
 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 40px; margin: 40px 0;">
+
   <div style="flex: 1; min-width: 280px; text-align: center;">
     <div style="position: relative; overflow: hidden; background-color: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
       <img src="/assets/images/2785106.jpg" 
@@ -17,9 +18,11 @@ title: Data
     </div>
     <p style="font-size: 0.75rem; color: #94a3b8; margin-top: 10px; font-style: italic;">conceptual visualization: multi-channel attribution complexity</p>
   </div>
+
   <div style="flex: 2; min-width: 320px;">
     </div>
 
+</div>
   <div style="flex: 2; min-width: 320px;">
     <h2 style="margin-top: 0;">Data Analytics Capability Matrix</h2>
     <p>I transform raw search data into actionable business intelligence using modern analytics stacks and statistical modeling.</p>
