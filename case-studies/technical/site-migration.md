@@ -36,8 +36,11 @@ I began by scraping the legacy subdomains to categorize 2,400+ URLs by traffic v
   </p>
 </div>
 
-* **Regex Pattern Mapping**
-Rather than manual entry, I engineered global Regex patterns to handle bulk directory shifts (e.g., migrating ```/blog/YYYY/MM/``` to a centralized ```/blog/structure```) while preserving the original slug integrity.
+* **Regex Pattern Mapping:** Rather than manual entry, I engineered global Regex patterns to handle bulk directory shifts while preserving the original slug integrity. This ensured that thousands of dated blog posts were consolidated into a modern, flat architecture without losing historical search value.
+
+   * **Source Pattern:** `^/blog/\d{4}/\d{2}/(.*)`
+   * **Target Pattern:** `https://www.site.com/blog/$1`
+
 * **Automated Status Validation**
 I developed a custom Python script using the ```requests``` library to simulate crawler behavior and verify that every legacy link triggered a clean 301 → 200 response sequence.
 
