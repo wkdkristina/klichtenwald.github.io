@@ -12,7 +12,7 @@ title: Data
   <div style="flex: 1; min-width: 280px; text-align: center;">
     <img src="/assets/images/infographic.webp" 
          alt="Conceptual Analytics Dashboard" 
-         style="width: 100%; border-radius: 12px; border: 1px solid #E2E8F0; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
+         style="width: 150%; border-radius: 12px; border: 1px solid #E2E8F0; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
   </div>
 
   <div style="flex: 2; min-width: 320px;">
