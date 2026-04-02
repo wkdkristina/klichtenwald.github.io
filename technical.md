@@ -66,8 +66,10 @@ def validate_migration(redirect_map):
 
 <h3>Example Mapping</h3>
 
-migration_data = {"https://old.com/blog": "https://new.com/blog/hub"}</br>
+```
+migration_data = {"https://old.com/blog": "https://new.com/blog/hub"}
 validate_migration(migration_data)
+```
 
 <h2>Technical Case Studies</h2>
 <p><a href="case-studies/crawl-budget.html">Crawl Budget & Indexation Recovery</a></p>
