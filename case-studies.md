@@ -2,6 +2,7 @@
 layout: default
 title: Case Studies
 ---
+
 <h1>Case Studies</h1>
 <p><i><b>Strategic Simulations & Data Proofs of Concepts (PoCs)</b></i></p>
 
@@ -39,6 +40,12 @@ title: Case Studies
   <a href="case-studies/technical/geo-schema.html">View Simulation →</a>
 </div>
 
+<div style="margin: 40px 0; padding: 20px; background-color: #F8FAFC; border-left: 4px solid #2563EB; border-radius: 4px;">
+  <p style="margin: 0; color: #1e293b; font-style: italic;">
+    <strong>Insight:</strong> Modern SEO is no longer about "tricking" an algorithm; it's about reducing <strong>Information Friction</strong>. By optimizing server response times and schema nesting, we make it computationally "cheaper" for LLMs and Search Engines to trust your data.
+  </p>
+</div>
+
 <h2>Data Science & Analytics</h2>
 
 <div class="case-study-card">
@@ -62,6 +69,12 @@ title: Case Studies
   <a href="case-studies/data-analytics/decay-dashboard.html">View Data Logic →</a>
 </div>
 
+<div style="margin: 40px 0; padding: 20px; background-color: #F8FAFC; border-left: 4px solid #2563EB; border-radius: 4px;">
+  <p style="margin: 0; color: #1e293b; font-style: italic;">
+    <strong>Did you know?</strong> According to industry benchmarks, over <strong>60% of enterprise content</strong> suffers from "Content Decay" within 12 months. My data-first approach uses Python to flag these traffic drops automatically, turning passive archives into active revenue drivers.
+  </p>
+</div>
+
 <h2>Growth & Agency Leadership</h2>
 
 <div class="case-study-card">
@@ -83,6 +96,12 @@ title: Case Studies
   <p><b>The Problem:</b> The company was over-paying an external agency for “low value” SEO tasks while internal technical debt continued to mount. Communication between the agency and the internal Dev team had completely broken down.</p> 
   <p><b>The Tech:</b> Jira/Asana Infrastructure, KPI Dashboarding (Looker Studio), Technical Debt Prioritization Framework (ICE Scoring), SEO-to-Dev Translation Documentation.</p>
   <a href="case-studies/content-strategy/stakeholder-management.html">View Strategy →</a>
+</div>
+
+<div style="margin: 40px 0; padding: 20px; background-color: #F8FAFC; border-left: 4px solid #2563EB; border-radius: 4px;">
+  <p style="margin: 0; color: #1e293b; font-style: italic;">
+    <strong>The Bottom Line:</strong> The best SEO strategy in the world is worthless if it never leaves the slide deck. Success in high-level agencies depends on <strong>translation</strong>—turning technical requirements into developer tickets and data insights into executive buy-in.
+  </p>
 </div>
 
 <p><i>None of these solutions are "off the shelf." They are custom-built to eliminate waste and demonstrate some of my knowledge. Ready to see the raw code? Visit the <a href="technical.html">Technical Hub</a>.</i></p>
