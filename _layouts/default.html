@@ -85,32 +85,60 @@
   </div>
 </nav>
 
-.dropdown {
+.nav-bar {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 10px 0;
+  border-bottom: 1px solid #E2E8F0;
+}
+
+.nav-bar a, .dropdown {
   display: inline-block;
+  vertical-align: middle;
+  margin: 0 12px;
+}
+
+.nav-bar a {
+  color: #64748b;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.nav-bar a:hover, .dropdown:hover .dropbtn {
+  color: #2563EB;
+}
+
+.dropdown {
   position: relative;
 }
 
 .dropdown-content {
-  display: none;
+  display: none; 
   position: absolute;
+  left: 50%;
+  transform: translateX(-50%); 
   background-color: #FFFFFF;
-  min-width: 260px;
-  box-shadow: 0px 8px 16px rgba(0,0,0,0.1);
-  z-index: 100;
+  min-width: 240px;
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.1);
+  z-index: 1000;
   border: 1px solid #E2E8F0;
   border-radius: 8px;
-  text-align: left;
-  margin-top: 5px;
+  margin-top: 10px;
+  padding: 5px 0;
 }
 
 .dropdown-content a {
-  color: #64748B;
-  padding: 12px 16px;
-  text-decoration: none;
   display: block;
-  font-size: 0.8rem;
-  border-bottom: 1px solid #F1F5F9;
-  margin: 0; 
+  margin: 0 !important; 
+  padding: 12px 20px;
+  text-align: left;
+  font-size: 0.75rem;
+  border-bottom: 1px solid #F8FAFC;
+  text-transform: none; 
+  letter-spacing: 0;
 }
 
 .dropdown-content a:last-child {
@@ -123,24 +151,49 @@
 
 .dropdown-content a:hover {
   background-color: #F8FAFC;
-  color: #2563EB !2important; 
+  color: #2563EB !important;
 }
 
-.dropdown:hover .dropbtn {
-  color: #2563EB;
+.nav-bar a.active {
+  font-weight: 800;
+  color: #1e293b; 
+  border-bottom: 2px solid #2563EB; 
+  padding-bottom: 5px;
+}
+
+
+.dropdown-content a.active {
+  border-bottom: 1px solid #F8FAFC; 
+  background-color: #F1F5F9;
 }
 
   </style>
 </head>
 <body>
-  <div class="nav-bar">
-  <a href="/" {% if page.title == "Home" %}style="font-weight: 800; color: #0F172A;"{% endif %}>Home</a> | 
-  <a href="/technical.html" {% if page.title == "Technical" %}style="font-weight: 800; color: #0F172A;"{% endif %}>Technical</a> | 
-  <a href="/data-analytics.html" {% if page.title == "Data" %}style="font-weight: 800; color: #0F172A;"{% endif %}>Data</a> | 
-  <a href="/content-strategy.html" {% if page.title == "Strategy" %}style="font-weight: 800; color: #0F172A;"{% endif %}>Strategy</a> | 
-  <a href="/case-studies.html" {% if page.title == "Case Studies" %}style="font-weight: 800; color: #0F172A;"{% endif %}>Case Studies</a> | 
-  <a href="/contact.html" {% if page.title == "Contact" %}style="font-weight: 800; color: #0F172A;"{% endif %}>Contact</a>
-</div>
+  <nav class="nav-bar">
+  <a href="/" class="{% if page.url == '/' %}active{% endif %}">Home</a>
+  <a href="/technical/" class="{% if page.url contains '/technical/' %}active{% endif %}">Technical</a>
+  <a href="/data-analytics/" class="{% if page.url contains '/data-analytics/' %}active{% endif %}">Data Analytics</a>
+  <a href="/content-strategy/" class="{% if page.url contains '/content-strategy/' %}active{% endif %}">Strategy</a>
+  
+  <div class="dropdown">
+    <a href="/case-studies/" class="dropbtn {% if page.url contains '/case-studies/' %}active{% endif %}">Case Studies ▾</a>
+    <div class="dropdown-content">
+      <a href="/case-studies/">Overview</a>
+      <a href="/case-studies/crawl-budget/">1. Crawl Budget</a>
+      <a href="/case-studies/geo-schema/">2. GEO & Schema</a>
+      <a href="/case-studies/site-migration/">3. Site Migration</a>
+      <a href="/case-studies/content-decay/">4. Content Decay</a>
+      <a href="/case-studies/attribution/">5. Multi-Touch Attribution</a>
+      <a href="/case-studies/leak-detection/">6. The Leak Detection</a>
+      <a href="/case-studies/competitive-conquest/">7. Competitive Conquest</a>
+      <a href="/case-studies/editorial-engine/">8. Editorial Engine</a>
+      <a href="/case-studies/stakeholder-management/">9. Stakeholder Management</a>
+    </div>
+  </div>
+  
+  <a href="/contact/" class="{% if page.url contains '/contact/' %}active{% endif %}">Contact</a>
+</nav>
 
   {{ content }}
 
