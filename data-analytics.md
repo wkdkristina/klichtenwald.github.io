@@ -73,6 +73,6 @@ print(decay_alert[['Page', 'Traffic_Change']].head())
 ```
 
 <h2>Data Analytics Case Studies</h2>
-<p><a href="case-studies/leak-detection.html">The Leak Detection</a></p>
-<p><a href="case-studies/attribution.html">Multi-touch Attribution Modeling</a></p>
-<p><a href="case-studies/decay-dashboard.html">SQL Powered Content Decay Dashboard</a></p>
+<p><a href="case-studies/data-analytics/leak-detection.html">The Leak Detection</a></p>
+<p><a href="case-studies/data-analytics/attribution.html">Multi-touch Attribution Modeling</a></p>
+<p><a href="case-studies/data-analytics/decay-dashboard.html">SQL Powered Content Decay Dashboard</a></p>

@@ -70,3 +70,8 @@ title: Strategy
 RESULT: 🟢 READY FOR ORGANIC DEPLOYMENT
   </pre>
 </div>
+
+<h2>Content & Strategy Case Studies</h2>
+<p><a href="case-studies/content-strategy/editorial-engine.html">The Editorial Engine</a></p>
+<p><a href="case-studies/content-strategy/competitive-conquest.html">The Competitive Conquest</a></p>
+<p><a href="case-studies/content-strategy/stakeholder-management.html">Agency & Stakeholder Management</a></p>

@@ -72,9 +72,9 @@ validate_migration(migration_data)
 ```
 
 <h2>Technical Case Studies</h2>
-<p><a href="case-studies/crawl-budget.html">Crawl Budget & Indexation Recovery</a></p>
-<p><a href="case-studies/site-migration.html">Precision Site Migration Architecture</a></p>
-<p><a href="case-studies/geo-schema.html">GEO & Schema: Architecting for Answer Engines</a></p>
+<p><a href="case-studies/technical/crawl-budget.html">Crawl Budget & Indexation Recovery</a></p>
+<p><a href="case-studies/technical/site-migration.html">Precision Site Migration Architecture</a></p>
+<p><a href="case-studies/technical/geo-schema.html">GEO & Schema: Architecting for Answer Engines</a></p>
 
 
 
