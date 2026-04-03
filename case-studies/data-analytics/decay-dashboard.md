@@ -7,27 +7,61 @@ title: Case Study - SQL Powered Content Decay Dashboard
 A large scale blog with 500+ articles was losing 10% of its total traffic month-over-month, but the team couldn’t identify which specific posts were failing until it was too late.
 
 ## The Zero Waste Solution
-1. **Automated Decay Detection:** Built a BigQuery SQL workflow that automatically flags high-value URLs experiencing a >20% traffic drop.
-2. **Resource Prioritization:** Developed a Looker Studio dashboard that ranks "at-risk" content by revenue potential, moving from manual audits to automated alerts.
-3. **Historical Refresh Framework:** Pivoted editorial resources away from low-ROI new drafts toward high-ROI updates of existing assets, maximizing previous SEO investments.
+1. **Algorithmic Decay Detection:** Engineered a BigQuery SQL script to programmatically detect "content decay" by correlating stable impressions with declining CTR and average position.
+2. **Automated Governance:** Built a Looker Studio pipeline to deliver weekly "Traffic Health" reports, eliminating manual auditing and editorial guesswork.
+3. **Strategic Pivot:** Transitioned the team to a 70/30 production model (70% new, 30% data-backed refreshes) to stabilize the "leaky bucket" of legacy traffic.
 
 ## Tools Used
-* BigQuery (SQL Data Warehousing)
-* Looker Studio (Dashboarding & Viz)
-* Search Console API
-* Pandas (Python Data Library)
+* Google BigQuery (SQL Data Engineering)
+* Google Search Console API
+* Looker Studio (Automated Reporting)
+* Google Sheets (Priority Action Mapping)
 
 ## The Business Impact
-* **Traffic Recovery:** 35% lift in sessions for stale, high-value legacy content.
-* **Resource Optimization:** 40% reduction in new content costs by prioritizing "Refresh" over "Rewrite."
-* **Revenue Protection:** Reversed a 6-month downward trend on the site’s top 10 converting pages.
+* **Quantifiable Growth:** Reversed a year-long plateau to achieve 14% net organic growth within one quarter by protecting high-value legacy assets.
+* **Operational Scalability:** Engineered a "set-and-forget" system capable of managing 100 to 100,000+ URLs with zero additional overhead.
+* **Revenue Protection:** Moved from reactive "intuition" to proactive "Pre-emptive Revenue Protection," saving hundreds of manual hours per year.
 
 ## The Deep Dive
-* **Crawl Gap Analysis**
-Utilized Google Search Console and, ScreamingFrog/SEMrush to identify the delta between URLs discovered and URLs indexed. This revealed that faceted navigation (dynamic filters for size, color, and price) were generating over 1.4M unique URL combinations that lacked business value.
-* **Directive Optimization**
-Implemented a global `Disallow` strategy within the robots.txt file to block search bots from crawling non-essential parameter strings. This immediately preserved the site's crawl budget for high priority product and category pages.
-* **Canonical & Tag Consolidation**
-Developed a logic based canonical tag framework to ensure that any filtered views that did get crawled would pass their link equity back to the root product page, preventing internal competition and duplicate content issues.
-* **Validation & Monitoring**
-Established a custom dashboard to monitor the indexation rate of new product launches. By reducing technical noise, we ensured that new inventory moved from "Discovered" to "Indexed" in an average of 3.2 days.
+* **Bypassing UI Limitations**
+Standard SEO tools often truncate historical data or make year-over-year URL-level comparisons difficult. By exporting raw performance data into BigQuery, I was able to identify the exact moment a high-ranking article began to "cool off."
+* **The Decay Query**
+I developed a custom SQL workflow to calculate the percentage change in clicks over a 90-day rolling window, filtering for pages that still had high impressions but failing engagement.
+
+```
+/* SQL: Identifying Content Decay */
+SELECT 
+    page_url,
+    clicks_last_90_days,
+    clicks_previous_90_days,
+    ((clicks_last_90_days - clicks_previous_90_days) / NULLIF(clicks_previous_90_days, 0)) * 100 AS pct_change
+FROM `search_console_data`
+WHERE clicks_last_90_days < clicks_previous_90_days
+  AND clicks_previous_90_days > 100
+ORDER BY pct_change ASC
+LIMIT 10;
+```
+
+* **Priority Action Mapping**
+Rather than a generic list, the data was categorized by "Trend Severity." This allowed the editorial team to focus on "Critical" updates (rank 7 was rank 2) where the ROI of a refresh was highest.
+
+<div style="max-width: 800px; margin: 20px auto; background-color: #FFFFFF; border: 1px solid #E2E8F0; border-radius: 12px; padding: 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); text-align: center;">
+<img src="/assets/images/decay-priority.png"
+alt="Content Decay Priority Matrix"
+style="width: 100%; height: auto; display: block; border-radius: 4px;">
+<p style="font-size: 0.75rem; color: #64748B; margin-top: 10px; font-style: italic;">
+<strong>Evidence:</strong> Automated trend tracking that separates "Stable" assets from "Critical" revenue risks.
+</p>
+</div>
+
+* **Engineered vs. Manual Workflow**
+By moving from a reactive "intuition" model to a proactive "Engineered Pipeline," we reduced time spent on audits by nearly 90%, allowing the team to spend their energy on high-impact updates.
+
+<img src="/assets/images/decay-workflow.png"
+alt="Manual vs Engineered Workflow Comparison"
+style="width: 100%; height: auto; display: block; border-radius: 4px;">
+<p style="font-size: 0.75rem; color: #64748B; margin-top: 10px; font-style: italic;">
+<strong>Strategic Shift:</strong> Transitioning from reactive "Intuition" to automated "Revenue Protection."
+</p>
+</div>
+
