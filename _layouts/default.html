@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <title>{{ page.title }} | Kristina Lichtenwald</title>
+  <title>{{ page.title }} | Kris Lichtenwald Portfolio</title>
+  <meta name="description" content="Technical SEO & Data Analytics Portfolio of Kristina (Kris) Lichtenwald.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://krislichtenwald.github.io{{ page.url }}">
+  <meta property="og:title" content="{{ page.title }} | Kris Lichtenwald">
+  <meta property="og:description" content="Technical SEO and Data Analytics Case Studies focused on Zero-Waste growth.">
+  <meta property="og:image" content="https://krislichtenwald.github.io/assets/images/portfolio-preview.png">
   <style>
       body { 
         background-color: #abc5df; 
@@ -149,6 +154,71 @@
         background-color: #F1F5F9;
     }
 
+    .site-footer {
+        background-color: #F8FAFC;
+        border-top: 1px solid #E2E8F0;
+        padding: 60px 0 40px 0;
+        margin-top: 80px; /* Pushes footer away from content */
+        color: #64748B;
+        font-size: 0.85rem;
+    }
+
+    .footer-container {
+        max-width: 1000px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 40px;
+        padding: 0 20px;
+    }
+
+    .footer-col {
+        flex: 1;
+        min-width: 200px;
+    }
+
+    .footer-col h4 {
+        color: #1E293B;
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+    }
+
+    .footer-col ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .footer-col ul li {
+        margin-bottom: 10px;
+    }
+
+    .footer-col ul li a {
+        color: #64748B;
+        text-decoration: none;
+        transition: color 0.2s;
+    }
+
+    .footer-col ul li a:hover {
+        color: #2563EB;
+    }
+
+    .footer-col p {
+        margin: 5px 0;
+        line-height: 1.5;
+    }
+
+    .copyright {
+        margin-top: 25px;
+        font-size: 0.75rem;
+        border-top: 1px solid #E2E8F0;
+        padding-top: 15px;
+        line-height: 1.6;
+    }
+
   </style>
 </head>
 <body>
@@ -178,6 +248,68 @@
 </nav>
 
   {{ content }}
+
+<footer class="site-footer">
+  <div class="footer-container">
+    
+    <div class="footer-col">
+      <h4>Navigation</h4>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/technical/">Technical SEO</a></li>
+        <li><a href="/data-analytics/">Data Analytics</a></li>
+        <li><a href="/content-strategy/">Content & Strategy</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Case Studies</h4>
+      <ul>
+        <li><a href="/case-studies/">Overview</a></li>
+        <li><a href="/case-studies/technical/crawl-budget.html">Crawl Budget</a></li>
+        <li><a href="/case-studies/content-strategy/competitive-conquest.html">Competitive Conquest</a></li>
+        <li><a href="/case-studies/data-analytics/attribution.html">Attribution</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Connect</h4>
+      <p>SEO Strategist & Data Analyst</p>
+      <p>Napoleon, Ohio</p>
+      <div class="copyright">
+        &copy; 2026 Kristina Lichtenwald. <br>All rights reserved.
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Kristina Lichtenwald",
+      "alternateName": "Kris Lichtenwald",
+      "jobTitle": "SEO Strategist & Data Analyst",
+      "url": "https://krislichtenwald.github.io",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Napoleon",
+        "addressRegion": "OH"
+      },
+      "knowsAbout": [
+      "Technical SEO", 
+      "Data Analytics", 
+      "Python Automation", 
+      "SQL Data Modeling", 
+      "Generative Engine Optimization"
+      ],
+      "sameAs": [
+        "https://www.linkedin.com/in/your-profile",
+        "https://github.com/your-username"
+        ]
+    }
+</script>
 
 </body>
 </html>
