@@ -104,4 +104,6 @@ title: Case Studies
   </p>
 </div>
 
+<h4><b>These case studies represent a core philosophy: growth is not a series of lucky breaks, but the result of engineered ecosystems. By treating SEO and Marketing as technical infrastructure rather than fluctuating expenses, these frameworks demonstrate how to build autonomous, scalable, and defensible market authority in any competitive landscape.</b></h4>
+
 <p><i>None of these solutions are "off the shelf." They are custom-built to eliminate waste and demonstrate some of my knowledge. Ready to see the raw code? Visit the <a href="technical.html">Technical Hub</a>.</i></p>
