@@ -46,8 +46,16 @@ Select a specialization below to see my methodology, tools, and results:
 </div>
 
 ---
-### All Case Studies
-[**View the full library of 9 Case Studies indexed by impact**](case-studies.md)
+<div class="case-study-cta">
+  <h2>All Case Studies</h2>
+  <a href="./assets/pdfs/all-case-studies.pdf" target="_blank" class="main-portfolio-link">
+    View Full Technical Portfolio (33-Page Master PDF)
+  </a>
+  <br>
+  <a href="./assets/pdfs/all-case-studies.pdf" download="Kristina_Lichtenwald_Technical_Portfolio_2026" class="download-sublink">
+    <i class="fas fa-download"></i> Download for Offline Review
+  </a>
+</div>
 
 [Contact](contact.md)
 
