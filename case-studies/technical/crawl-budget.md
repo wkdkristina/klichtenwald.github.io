@@ -39,12 +39,16 @@ Established a custom dashboard to monitor the indexation rate of new product lau
      style="display: block; margin: 0 auto; max-width: 100%;">
 
 <div class="sticky-download-container">
-    <a href="/assets/pdfs/crawl-budget.pdf" class="sticky-download-btn" target="_blank">
+    <a href="/assets/pdfs/crawl-budget.pdf" 
+       class="sticky-btn-base sticky-view-blue" 
+       target="_blank">
         <i class="fas fa-file-pdf"></i>
-        <span class="sticky-text">View PDF</span>
+        <span class="sticky-label">View<br>PDF</span>
     </a>
-    <a href="/assets/pdfs/crawl-budget.pdf" download="Lichtenwald_Technical_SEO_Crawl_Budget" class="sticky-save-link">
-        <i class="fas fa-download"></i>
-        <span class="sticky-text">Download PDF</span>
+    <a href="/assets/pdfs/crawl-budget.pdf">
+         class="sticky-btn-base sticky-download-gray" 
+         download="Lichtenwald_Crawl_Budget_PoC">
+          <i class="fas fa-download"></i>
+          <span class="sticky-label">Download</span>
     </a>
 </div>
