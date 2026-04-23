@@ -54,3 +54,17 @@ Using NLP tools, I mapped Industry Entities (e.g., "Food Cost Percentage," "Turn
 * **Defensive Stability**
 Once we secured the #1 spot, the "Moat" effect of the 20 spokes made it prohibitively expensive for the competitor to attempt a comeback, resulting in a sustainable, long-term organic lead flow.
 
+<div class="sticky-download-container">
+    <a href="/assets/pdfs/competitive-conquest.pdf" 
+       class="sticky-btn-base sticky-view-blue" 
+       target="_blank">
+        <i class="fas fa-file-pdf"></i>
+        <span class="sticky-label">View<br>PDF</span>
+    </a>
+    <a href="/assets/pdfs/competitive-conquest.pdf"
+          class="sticky-btn-base sticky-download-gray"
+          download="Lichtenwald_Crawl_Budget_PoC">
+               <i class="fas fa-download"></i>
+               <span class="sticky-label">Download</span>
+     </a>
+</div>

@@ -51,3 +51,18 @@ style="width: 100%; height: auto; display: block; border-radius: 4px;">
 
 * **Fiscal Efficiency**
 By demonstrating a clear correlation between technical site health and revenue, we were able to protect the SEO budget during fiscal tightening and prove that technical integrity is the foundation of scalable growth.
+
+<div class="sticky-download-container">
+    <a href="/assets/pdfs/stakeholder-management.pdf" 
+       class="sticky-btn-base sticky-view-blue" 
+       target="_blank">
+        <i class="fas fa-file-pdf"></i>
+        <span class="sticky-label">View<br>PDF</span>
+    </a>
+    <a href="/assets/pdfs/stakeholder-management.pdf"
+          class="sticky-btn-base sticky-download-gray"
+          download="Lichtenwald_Crawl_Budget_PoC">
+               <i class="fas fa-download"></i>
+               <span class="sticky-label">Download</span>
+     </a>
+</div>

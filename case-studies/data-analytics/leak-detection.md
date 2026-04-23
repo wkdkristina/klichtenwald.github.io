@@ -72,3 +72,18 @@ I standardized the element layering and viewport logic via CSS to ensure the CTA
 
 * **Economic Validation**
 Post-resolution data confirmed an immediate 22% lift in lead volume, effectively salvaging $132k in annual recurring revenue (ARR) with zero additional marketing spend.
+
+<div class="sticky-download-container">
+    <a href="/assets/pdfs/leak-detection.pdf" 
+       class="sticky-btn-base sticky-view-blue" 
+       target="_blank">
+        <i class="fas fa-file-pdf"></i>
+        <span class="sticky-label">View<br>PDF</span>
+    </a>
+    <a href="/assets/pdfs/leak-detection.pdf"
+          class="sticky-btn-base sticky-download-gray"
+          download="Lichtenwald_Crawl_Budget_PoC">
+               <i class="fas fa-download"></i>
+               <span class="sticky-label">Download</span>
+     </a>
+</div>

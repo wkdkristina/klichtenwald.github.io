@@ -74,3 +74,18 @@ for url in urls:
 
 * **Latency & Chain Mitigation**
 By auditing the server-side execution, I eliminated multi-hop redirect chains, ensuring link equity passed to the new destination in a single, millisecond-fast jump.
+
+<div class="sticky-download-container">
+    <a href="/assets/pdfs/site-migration.pdf" 
+       class="sticky-btn-base sticky-view-blue" 
+       target="_blank">
+        <i class="fas fa-file-pdf"></i>
+        <span class="sticky-label">View<br>PDF</span>
+    </a>
+    <a href="/assets/pdfs/site-migration.pdf"
+          class="sticky-btn-base sticky-download-gray"
+          download="Lichtenwald_Crawl_Budget_PoC">
+               <i class="fas fa-download"></i>
+               <span class="sticky-label">Download</span>
+     </a>
+</div>

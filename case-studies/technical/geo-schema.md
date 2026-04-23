@@ -83,3 +83,18 @@ By securing rich snippets through schema nesting, I transformed standard blue-li
     <strong>SERP Transformation:</strong> Transitioning from standard text to 4.9-star Rich Snippets resulted in a measurable 20-30% increase in CTR.
   </p>
 </div>
+
+<div class="sticky-download-container">
+    <a href="/assets/pdfs/geo-schema.pdf" 
+       class="sticky-btn-base sticky-view-blue" 
+       target="_blank">
+        <i class="fas fa-file-pdf"></i>
+        <span class="sticky-label">View<br>PDF</span>
+    </a>
+    <a href="/assets/pdfs/geo-schema.pdf"
+          class="sticky-btn-base sticky-download-gray"
+          download="Lichtenwald_Crawl_Budget_PoC">
+               <i class="fas fa-download"></i>
+               <span class="sticky-label">Download</span>
+     </a>
+</div>

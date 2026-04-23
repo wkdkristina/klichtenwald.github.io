@@ -79,3 +79,18 @@ ORDER BY assisted_ratio DESC;
 
 * **Strategic Re-Alignment**
 Based on these insights, I transitioned the SEO strategy from a "defensive" posture to an "expansion" model, focusing on the informational topics that drove the highest assisted ROI.
+
+<div class="sticky-download-container">
+    <a href="/assets/pdfs/multi-touch-attribution.pdf" 
+       class="sticky-btn-base sticky-view-blue" 
+       target="_blank">
+        <i class="fas fa-file-pdf"></i>
+        <span class="sticky-label">View<br>PDF</span>
+    </a>
+    <a href="/assets/pdfs/multi-touch-attribution.pdf"
+          class="sticky-btn-base sticky-download-gray"
+          download="Lichtenwald_Crawl_Budget_PoC">
+               <i class="fas fa-download"></i>
+               <span class="sticky-label">Download</span>
+     </a>
+</div>

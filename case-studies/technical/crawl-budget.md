@@ -51,8 +51,4 @@ Established a custom dashboard to monitor the indexation rate of new product lau
                <i class="fas fa-download"></i>
                <span class="sticky-label">Download</span>
      </a>
-
-
-    
-    
 </div>

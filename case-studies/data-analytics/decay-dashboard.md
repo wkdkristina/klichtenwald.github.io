@@ -66,3 +66,17 @@ style="width: 100%; height: auto; display: block; border-radius: 4px;">
 </p>
 </div>
 
+<div class="sticky-download-container">
+    <a href="/assets/pdfs/content-decay.pdf" 
+       class="sticky-btn-base sticky-view-blue" 
+       target="_blank">
+        <i class="fas fa-file-pdf"></i>
+        <span class="sticky-label">View<br>PDF</span>
+    </a>
+    <a href="/assets/pdfs/content-decay.pdf"
+          class="sticky-btn-base sticky-download-gray"
+          download="Lichtenwald_Crawl_Budget_PoC">
+               <i class="fas fa-download"></i>
+               <span class="sticky-label">Download</span>
+     </a>
+</div>

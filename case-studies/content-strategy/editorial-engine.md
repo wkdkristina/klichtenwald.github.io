@@ -54,3 +54,18 @@ style="width: 100%; height: auto; display: block; border-radius: 4px;">
 <strong>Efficiency Gains:</strong> 175% increase in output by automating the technical QA layer.
 </p>
 </div>
+
+<div class="sticky-download-container">
+    <a href="/assets/pdfs/editorial-engine.pdf" 
+       class="sticky-btn-base sticky-view-blue" 
+       target="_blank">
+        <i class="fas fa-file-pdf"></i>
+        <span class="sticky-label">View<br>PDF</span>
+    </a>
+    <a href="/assets/pdfs/editorial-engine.pdf"
+          class="sticky-btn-base sticky-download-gray"
+          download="Lichtenwald_Crawl_Budget_PoC">
+               <i class="fas fa-download"></i>
+               <span class="sticky-label">Download</span>
+     </a>
+</div>
