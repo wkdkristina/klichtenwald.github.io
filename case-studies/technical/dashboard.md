@@ -15,7 +15,7 @@ Apex Industrial was suffering from "Index Bloat." With 50,000 URLs discovered bu
     <li><b>AEO Ready Schema:</b> I deployed technicalSpecs and FAQ schema to provide the granular data points required for modern Answer Engines.</li>
 </ul>
 
-<img src="/assets/images/kpi_image.jpg" 
+<img src="/assets/images/case-studies/kpi-dashboard/kpi_image.png" 
      alt="Custom dashboard to display the Weighted Logic discussed" 
      title="KPI & Dashboard Reporting" 
      loading="lazy" 
