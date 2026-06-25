@@ -30,10 +30,10 @@ title: SOP-SEO-AI-001 Programmatic Validation Script
     </ul>
   </section>
 
-  <section id="source-code">
-    <h3 style="font-size: 1.3rem; color: #1E293B; margin-bottom: 15px; font-family: monospace;">Python Implementation & Test Harness</h3>
+<section id="source-code" style="margin-top: 30px;">
+    <h3 style="font-size: 1.3rem; color: #1E293B; margin-bottom: 20px; font-family: monospace;">Python Implementation & Test Harness</h3>
 
-```python
+    {% highlight python %}
 import json
 import logging
 from datetime import datetime
@@ -107,4 +107,6 @@ if __name__ == "__main__":
     bad_payload = '{"target_keyword": "data analytics automation", "difficulty_score": "high", "optimized_title": "Automating Data Streams"}'
     print("\n--- Running Test 2: Invalid Data (Triggers Exception Routing) ---")
     print(json.dumps(validate_ai_payload(bad_payload), indent=2))
-    ```
+    {% endhighlight %}
+  </section>
+</div>  
