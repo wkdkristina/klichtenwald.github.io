@@ -3,6 +3,27 @@ layout: default
 title: SOP-SEO-AI-001 Programmatic Validation Script
 ---
 
+<style>
+  /* Force the Jekyll Liquid block to render with a true code-editor aesthetic */
+  .highlight, pre {
+    background-color: #0F172A !important; /* Slate Dark */
+    color: #F8FAFC !important;            /* Off-White Text */
+    padding: 20px;
+    border-radius: 8px;
+    overflow-x: auto;
+    font-family: 'Fira Code', Consolas, Monaco, monospace;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);
+  }
+  /* Ensure structural comments stand out nicely */
+  .highlight .c, .highlight .c1 {
+    color: #64748B !important; /* Muted slate comment color */
+    font-style: italic;
+  }
+</style>
+
+<div class="container" style="max-width: 900px; margin: 0 auto; padding: 40px 20px;">
 <div class="container" style="max-width: 900px; margin: 0 auto; padding: 40px 20px;">
   <div style="margin-bottom: 30px;">
     <a href="/technical-artifacts" style="text-decoration: none; color: #2563EB; font-weight: 500; display: inline-flex; align-items: center; gap: 5px;">
