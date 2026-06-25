@@ -3,6 +3,20 @@ layout: default
 title: Let's Connect
 ---
 
+<div class="contact-manifesto-container" style="max-width: 800px; margin: 40px auto; padding: 0 20px;">
+  
+  <div style="background: #F1F5F9; border-left: 4px solid #0F172A; padding: 30px; border-radius: 0 8px 8px 0; box-shadow: 0 1px 4px rgba(0,0,0,0.03); margin-bottom: 40px;">
+    <h3 style="font-size: 1.1rem; color: #0F172A; margin-top: 0; margin-bottom: 15px; font-family: monospace; text-transform: uppercase; letter-spacing: 0.05em;">The Person Behind the Pipeline</h3>    
+    <p style="color: #1E293B; font-size: 1.1rem; line-height: 1.6; margin: 0; font-style: italic; font-weight: 500;">
+      "I’m a born-and-raised small-town country realist with zero patience for bad data, sloppy architecture, or administrative fluff. In life and in code, I call things exactly as they are and unapologetically stand up for the people—and the ideas—that deserve a fair shake."
+    </p>    
+    <p style="color: #334155; font-size: 1rem; line-height: 1.6; margin-top: 15px; margin-bottom: 0;">
+      I bring that exact same fierce protective instinct to data governance. Where others see simple automation, I see a baseline that needs guarding. I design zero-trust, adversarial pipelines because I believe data integrity requires an unyielding backbone. If you are looking for an analyst and engineer who won't just passively nod along, but will actively champion and defend the absolute integrity of your data operations—let's build something together.
+    </p>
+  </div>
+
+</div>
+
 <div class="contact-container">
   <section class="contact-hero">
     <h1>Strategic SEO & <span class="blue-text">Data Engineering</span> for Your Next Big Move.</h1>
