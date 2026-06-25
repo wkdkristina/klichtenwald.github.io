@@ -45,6 +45,6 @@ title: Technical Artifacts
       <h4 style="font-size: 1.2rem; color: #334155; margin-bottom: 15px;">Download & Repository Assets</h4>
       <div style="display: flex; gap: 15px; margin-bottom: 30px;">
         <a href="/assets/pdfs/SOP-SEO-AI-001.pdf" download style="display: inline-block; background: #2563EB; color: #FFFFFF; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: 500; font-size: 0.95rem;">📥 Download Master SOP (PDF)</a>
-        <a href="#appendix-code" style="display: inline-block; background: #F1F5F9; color: #334155; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: 500; font-size: 0.95rem; border: 1px solid #CBD5E1;">💻 View Python Validation Code</a>
+        <a href="/technical-artifacts/sop-seo-ai-001-script.html" style="display: inline-block; background: #F1F5F9; color: #334155; padding: 10px 20px; border-radius: 6px; text-decoration: none; font-weight: 500; font-size: 0.95rem; border: 1px solid #CBD5E1;">💻 View Python Validation Code</a>
       </div>
       
