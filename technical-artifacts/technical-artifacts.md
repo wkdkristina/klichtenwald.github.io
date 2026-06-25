@@ -4,11 +4,10 @@ title: Technical Artifacts
 ---
 
 <style>
-  /* Ensure Jekyll's markdown code highlights match our unified layout style */
   #appendix-code pre, 
   #appendix-code .highlight, 
   #appendix-code code {
-    background-color: #0f172a !important; /* Unified Slate Dark */
+    background-color: #0f172a !important; 
     color: #f8fafc !important;
     border-radius: 6px;
     padding: 15px;
