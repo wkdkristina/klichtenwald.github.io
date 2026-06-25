@@ -107,3 +107,4 @@ if __name__ == "__main__":
     bad_payload = '{"target_keyword": "data analytics automation", "difficulty_score": "high", "optimized_title": "Automating Data Streams"}'
     print("\n--- Running Test 2: Invalid Data (Triggers Exception Routing) ---")
     print(json.dumps(validate_ai_payload(bad_payload), indent=2))
+    ```
